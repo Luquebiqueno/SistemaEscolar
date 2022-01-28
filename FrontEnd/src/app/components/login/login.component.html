@@ -7,7 +7,7 @@
             <div class="card-group">
               <div class="card p-4">
                 <div class="card-body">
-                  <form id="formularioLogin">
+                  <form id="formularioLogin" [formGroup]="form" novalidate>
                     <h1>
                       Login
                     </h1>
@@ -19,7 +19,7 @@
                     </div>
                     <div class="row">
                       <div class="col-6">
-                        <button class="btn btn-primary px-4">Entrar</button>
+                        <button class="btn btn-primary px-4" [disabled]="form.invalid" (click)="login()">Entrar</button>
                       </div>
                     </div>
                   </form>

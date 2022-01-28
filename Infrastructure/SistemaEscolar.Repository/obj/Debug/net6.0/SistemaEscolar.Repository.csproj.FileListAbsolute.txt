@@ -1,0 +1,15 @@
+C:\Users\Luquebiqueno\Documents\Estudos\Projetos\SistemaEscolar\Infrastructure\SistemaEscolar.Repository\bin\Debug\net6.0\SistemaEscolar.Repository.deps.json
+C:\Users\Luquebiqueno\Documents\Estudos\Projetos\SistemaEscolar\Infrastructure\SistemaEscolar.Repository\bin\Debug\net6.0\SistemaEscolar.Repository.dll
+C:\Users\Luquebiqueno\Documents\Estudos\Projetos\SistemaEscolar\Infrastructure\SistemaEscolar.Repository\bin\Debug\net6.0\ref\SistemaEscolar.Repository.dll
+C:\Users\Luquebiqueno\Documents\Estudos\Projetos\SistemaEscolar\Infrastructure\SistemaEscolar.Repository\bin\Debug\net6.0\SistemaEscolar.Repository.pdb
+C:\Users\Luquebiqueno\Documents\Estudos\Projetos\SistemaEscolar\Infrastructure\SistemaEscolar.Repository\bin\Debug\net6.0\SistemaEscolar.Domain.dll
+C:\Users\Luquebiqueno\Documents\Estudos\Projetos\SistemaEscolar\Infrastructure\SistemaEscolar.Repository\bin\Debug\net6.0\SistemaEscolar.Domain.pdb
+C:\Users\Luquebiqueno\Documents\Estudos\Projetos\SistemaEscolar\Infrastructure\SistemaEscolar.Repository\obj\Debug\net6.0\SistemaEscolar.Repository.csproj.AssemblyReference.cache
+C:\Users\Luquebiqueno\Documents\Estudos\Projetos\SistemaEscolar\Infrastructure\SistemaEscolar.Repository\obj\Debug\net6.0\SistemaEscolar.Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Luquebiqueno\Documents\Estudos\Projetos\SistemaEscolar\Infrastructure\SistemaEscolar.Repository\obj\Debug\net6.0\SistemaEscolar.Repository.AssemblyInfoInputs.cache
+C:\Users\Luquebiqueno\Documents\Estudos\Projetos\SistemaEscolar\Infrastructure\SistemaEscolar.Repository\obj\Debug\net6.0\SistemaEscolar.Repository.AssemblyInfo.cs
+C:\Users\Luquebiqueno\Documents\Estudos\Projetos\SistemaEscolar\Infrastructure\SistemaEscolar.Repository\obj\Debug\net6.0\SistemaEscolar.Repository.csproj.CoreCompileInputs.cache
+C:\Users\Luquebiqueno\Documents\Estudos\Projetos\SistemaEscolar\Infrastructure\SistemaEscolar.Repository\obj\Debug\net6.0\SistemaEscolar.Repository.csproj.CopyComplete
+C:\Users\Luquebiqueno\Documents\Estudos\Projetos\SistemaEscolar\Infrastructure\SistemaEscolar.Repository\obj\Debug\net6.0\SistemaEscolar.Repository.dll
+C:\Users\Luquebiqueno\Documents\Estudos\Projetos\SistemaEscolar\Infrastructure\SistemaEscolar.Repository\obj\Debug\net6.0\ref\SistemaEscolar.Repository.dll
+C:\Users\Luquebiqueno\Documents\Estudos\Projetos\SistemaEscolar\Infrastructure\SistemaEscolar.Repository\obj\Debug\net6.0\SistemaEscolar.Repository.pdb

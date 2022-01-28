@@ -1,0 +1,26 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "73767147-f561-46d8-a7d3-af212ff481a6": {
+      "ProjectGuid": "73767147-f561-46d8-a7d3-af212ff481a6",
+      "DisplayName": "SistemaEscolar.Repository",
+      "ColorIndex": 0
+    },
+    "23fed2e8-775a-4854-83b8-cf95a82bcdd5": {
+      "ProjectGuid": "23fed2e8-775a-4854-83b8-cf95a82bcdd5",
+      "DisplayName": "SistemaEscolar.Domain",
+      "ColorIndex": 1
+    },
+    "87560981-5aa2-48d5-b171-b67e34e599cb": {
+      "ProjectGuid": "87560981-5aa2-48d5-b171-b67e34e599cb",
+      "DisplayName": "SistemaEscolar.Application",
+      "ColorIndex": 2
+    },
+    "efc3d554-3e05-4243-a5c7-bbaa8684bc87": {
+      "ProjectGuid": "efc3d554-3e05-4243-a5c7-bbaa8684bc87",
+      "DisplayName": "SistemaEscolar.Api",
+      "ColorIndex": 3
+    }
+  },
+  "NextColorIndex": 4
+}

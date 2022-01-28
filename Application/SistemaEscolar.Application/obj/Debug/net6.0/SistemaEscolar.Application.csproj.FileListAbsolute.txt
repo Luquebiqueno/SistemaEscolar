@@ -1,0 +1,15 @@
+C:\Users\Luquebiqueno\Documents\Estudos\Projetos\SistemaEscolar\Application\SistemaEscolar.Application\bin\Debug\net6.0\SistemaEscolar.Application.deps.json
+C:\Users\Luquebiqueno\Documents\Estudos\Projetos\SistemaEscolar\Application\SistemaEscolar.Application\bin\Debug\net6.0\SistemaEscolar.Application.dll
+C:\Users\Luquebiqueno\Documents\Estudos\Projetos\SistemaEscolar\Application\SistemaEscolar.Application\bin\Debug\net6.0\ref\SistemaEscolar.Application.dll
+C:\Users\Luquebiqueno\Documents\Estudos\Projetos\SistemaEscolar\Application\SistemaEscolar.Application\bin\Debug\net6.0\SistemaEscolar.Application.pdb
+C:\Users\Luquebiqueno\Documents\Estudos\Projetos\SistemaEscolar\Application\SistemaEscolar.Application\bin\Debug\net6.0\SistemaEscolar.Domain.dll
+C:\Users\Luquebiqueno\Documents\Estudos\Projetos\SistemaEscolar\Application\SistemaEscolar.Application\bin\Debug\net6.0\SistemaEscolar.Domain.pdb
+C:\Users\Luquebiqueno\Documents\Estudos\Projetos\SistemaEscolar\Application\SistemaEscolar.Application\obj\Debug\net6.0\SistemaEscolar.Application.csproj.AssemblyReference.cache
+C:\Users\Luquebiqueno\Documents\Estudos\Projetos\SistemaEscolar\Application\SistemaEscolar.Application\obj\Debug\net6.0\SistemaEscolar.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Luquebiqueno\Documents\Estudos\Projetos\SistemaEscolar\Application\SistemaEscolar.Application\obj\Debug\net6.0\SistemaEscolar.Application.AssemblyInfoInputs.cache
+C:\Users\Luquebiqueno\Documents\Estudos\Projetos\SistemaEscolar\Application\SistemaEscolar.Application\obj\Debug\net6.0\SistemaEscolar.Application.AssemblyInfo.cs
+C:\Users\Luquebiqueno\Documents\Estudos\Projetos\SistemaEscolar\Application\SistemaEscolar.Application\obj\Debug\net6.0\SistemaEscolar.Application.csproj.CoreCompileInputs.cache
+C:\Users\Luquebiqueno\Documents\Estudos\Projetos\SistemaEscolar\Application\SistemaEscolar.Application\obj\Debug\net6.0\SistemaEscolar.Application.csproj.CopyComplete
+C:\Users\Luquebiqueno\Documents\Estudos\Projetos\SistemaEscolar\Application\SistemaEscolar.Application\obj\Debug\net6.0\SistemaEscolar.Application.dll
+C:\Users\Luquebiqueno\Documents\Estudos\Projetos\SistemaEscolar\Application\SistemaEscolar.Application\obj\Debug\net6.0\ref\SistemaEscolar.Application.dll
+C:\Users\Luquebiqueno\Documents\Estudos\Projetos\SistemaEscolar\Application\SistemaEscolar.Application\obj\Debug\net6.0\SistemaEscolar.Application.pdb
