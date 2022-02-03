@@ -1,1 +1,34 @@
-<p>aluno-edit works!</p>
+<div class="tb">
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="card">
+                <div class="card-header" style="background: #212529; color: white;">
+                    Editar Aluno
+                </div>
+                <div class="card-body">
+                    <form id="formulario">
+                        <div class="row">
+                            <div class="form-group col-sm-6">
+                                <label for="nome">Nome</label>
+                                <input type="text" name="nome" class="form-control" id="nome" required placeholder="Digite o Nome">
+                            </div>
+                            <div class="form-group col-sm-6">
+                                <label for="media">Média</label>
+                                <input type="number" name="media" class="form-control" id="media" required placeholder="Digite a Média">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="form-group col-sm-6">
+                                <label for="telefone">Telefone</label>
+                                <input type="tel" name="telefone" class="form-control" id="telefone" required placeholder="Digite o Telefone">
+                            </div>
+                        </div>
+                        <hr class="my-4" />
+                        <button class="btn btn-light" routerLinkActive="active" [routerLink]="['../list']" style="margin-right: 5px;" >Voltar</button>
+                        <button class="btn btn-success" type="submit" >Salvar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

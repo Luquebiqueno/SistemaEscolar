@@ -10,3 +10,15 @@ C:\Users\Luquebiqueno\Documents\Estudos\Projetos\SistemaEscolar\Domain\SistemaEs
 C:\Users\Luquebiqueno\Documents\Estudos\Projetos\SistemaEscolar\Domain\SistemaEscolar.Domain\obj\Debug\net6.0\SistemaEscolar.Domain.dll
 C:\Users\Luquebiqueno\Documents\Estudos\Projetos\SistemaEscolar\Domain\SistemaEscolar.Domain\obj\Debug\net6.0\ref\SistemaEscolar.Domain.dll
 C:\Users\Luquebiqueno\Documents\Estudos\Projetos\SistemaEscolar\Domain\SistemaEscolar.Domain\obj\Debug\net6.0\SistemaEscolar.Domain.pdb
+C:\Users\conta\OneDrive\Documentos\Estudos\Projetos\SistemaEscolar\Domain\SistemaEscolar.Domain\bin\Debug\net6.0\SistemaEscolar.Domain.deps.json
+C:\Users\conta\OneDrive\Documentos\Estudos\Projetos\SistemaEscolar\Domain\SistemaEscolar.Domain\bin\Debug\net6.0\SistemaEscolar.Domain.dll
+C:\Users\conta\OneDrive\Documentos\Estudos\Projetos\SistemaEscolar\Domain\SistemaEscolar.Domain\bin\Debug\net6.0\ref\SistemaEscolar.Domain.dll
+C:\Users\conta\OneDrive\Documentos\Estudos\Projetos\SistemaEscolar\Domain\SistemaEscolar.Domain\bin\Debug\net6.0\SistemaEscolar.Domain.pdb
+C:\Users\conta\OneDrive\Documentos\Estudos\Projetos\SistemaEscolar\Domain\SistemaEscolar.Domain\obj\Debug\net6.0\SistemaEscolar.Domain.csproj.AssemblyReference.cache
+C:\Users\conta\OneDrive\Documentos\Estudos\Projetos\SistemaEscolar\Domain\SistemaEscolar.Domain\obj\Debug\net6.0\SistemaEscolar.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\conta\OneDrive\Documentos\Estudos\Projetos\SistemaEscolar\Domain\SistemaEscolar.Domain\obj\Debug\net6.0\SistemaEscolar.Domain.AssemblyInfoInputs.cache
+C:\Users\conta\OneDrive\Documentos\Estudos\Projetos\SistemaEscolar\Domain\SistemaEscolar.Domain\obj\Debug\net6.0\SistemaEscolar.Domain.AssemblyInfo.cs
+C:\Users\conta\OneDrive\Documentos\Estudos\Projetos\SistemaEscolar\Domain\SistemaEscolar.Domain\obj\Debug\net6.0\SistemaEscolar.Domain.csproj.CoreCompileInputs.cache
+C:\Users\conta\OneDrive\Documentos\Estudos\Projetos\SistemaEscolar\Domain\SistemaEscolar.Domain\obj\Debug\net6.0\SistemaEscolar.Domain.dll
+C:\Users\conta\OneDrive\Documentos\Estudos\Projetos\SistemaEscolar\Domain\SistemaEscolar.Domain\obj\Debug\net6.0\ref\SistemaEscolar.Domain.dll
+C:\Users\conta\OneDrive\Documentos\Estudos\Projetos\SistemaEscolar\Domain\SistemaEscolar.Domain\obj\Debug\net6.0\SistemaEscolar.Domain.pdb
