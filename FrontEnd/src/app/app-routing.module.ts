@@ -25,13 +25,13 @@ const routes: Routes = [
         path: 'aluno/list', component: AlunoListComponent
       },
       { 
-        path: 'aluno/edit', component: AlunoEditComponent
+        path: 'aluno/edit/:id', component: AlunoEditComponent
       },
       { 
         path: 'aluno/create', component: AlunoCreateComponent
       },
       { 
-        path: 'aluno/status', component: AlunoStatusComponent
+        path: 'aluno/status/:id', component: AlunoStatusComponent
       }
     ] 
   }

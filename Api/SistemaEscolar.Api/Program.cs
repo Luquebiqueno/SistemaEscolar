@@ -39,20 +39,20 @@ builder.Services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
 //Repository
 builder.Services.AddTransient(typeof(IRepositoryBase<,,>), typeof(RepositoryBase<,,>));
 builder.Services.AddScoped<IAutenticacaoRepository, AutenticacaoRepository>();
-//builder.Services.AddScoped(typeof(IUsuarioRepository<>), typeof(UsuarioRepository<>));
-//builder.Services.AddScoped(typeof(IAlunoRepository<>), typeof(AlunoRepository<>));
+builder.Services.AddScoped(typeof(IUsuarioRepository<>), typeof(UsuarioRepository<>));
+builder.Services.AddScoped(typeof(IAlunoRepository<>), typeof(AlunoRepository<>));
 
 //Service
 builder.Services.AddTransient(typeof(IServiceBase<,,>), typeof(ServiceBase<,,>));
 builder.Services.AddScoped<IAutenticacaoService, AutenticacaoService>();
-//builder.Services.AddScoped(typeof(IUsuarioService<>), typeof(UsuarioService<>));
-//builder.Services.AddScoped(typeof(IAlunoService<>), typeof(AlunoService<>));
+builder.Services.AddScoped(typeof(IUsuarioService<>), typeof(UsuarioService<>));
+builder.Services.AddScoped(typeof(IAlunoService<>), typeof(AlunoService<>));
 
 //Application
 builder.Services.AddTransient(typeof(IApplicationBase<,,>), typeof(ApplicationBase<,,>));
 builder.Services.AddScoped<IAutenticacaoApplication, AutenticacaoApplication>();
-//builder.Services.AddScoped(typeof(IUsuarioApplication<>), typeof(UsuarioApplication<>));
-//builder.Services.AddScoped(typeof(IAlunoApplication<>), typeof(AlunoApplication<>));
+builder.Services.AddScoped(typeof(IUsuarioApplication<>), typeof(UsuarioApplication<>));
+builder.Services.AddScoped(typeof(IAlunoApplication<>), typeof(AlunoApplication<>));
 
 //Inicio Autenticação
 var tokenConfiguration = new TokenConfiguration();

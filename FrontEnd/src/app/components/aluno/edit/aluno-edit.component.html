@@ -6,26 +6,26 @@
                     Editar Aluno
                 </div>
                 <div class="card-body">
-                    <form id="formulario">
+                    <form>
                         <div class="row">
                             <div class="form-group col-sm-6">
                                 <label for="nome">Nome</label>
-                                <input type="text" name="nome" class="form-control" id="nome" required placeholder="Digite o Nome">
+                                <input type="text" name="nome" class="form-control" id="nome" required placeholder="Digite o Nome" [(ngModel)]="aluno.nome">
                             </div>
                             <div class="form-group col-sm-6">
                                 <label for="media">Média</label>
-                                <input type="number" name="media" class="form-control" id="media" required placeholder="Digite a Média">
+                                <input type="number" name="media" class="form-control" id="media" required placeholder="Digite a Média" [(ngModel)]="aluno.media">
                             </div>
                         </div>
                         <div class="row">
                             <div class="form-group col-sm-6">
                                 <label for="telefone">Telefone</label>
-                                <input type="tel" name="telefone" class="form-control" id="telefone" required placeholder="Digite o Telefone">
+                                <input type="tel" name="telefone" class="form-control" id="telefone" required placeholder="Digite o Telefone" [(ngModel)]="aluno.telefone">
                             </div>
                         </div>
                         <hr class="my-4" />
-                        <button class="btn btn-light" routerLinkActive="active" [routerLink]="['../list']" style="margin-right: 5px;" >Voltar</button>
-                        <button class="btn btn-success" type="submit" >Salvar</button>
+                        <button class="btn btn-light" routerLinkActive="active" [routerLink]="['../../list']" style="margin-right: 5px;" >Voltar</button>
+                        <button class="btn btn-success" type="submit" (click)="updateAluno(aluno.id, aluno)">Salvar</button>
                     </form>
                 </div>
             </div>

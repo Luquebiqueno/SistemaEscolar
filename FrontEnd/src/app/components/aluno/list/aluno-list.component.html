@@ -1,6 +1,11 @@
 <div class="tb">
     <table class="table table-striped table table-sm table-bordered caption-top">
-        <caption>Lista de alunos</caption>
+        <caption>
+          <strong>Lista de alunos</strong>
+          <div class="text-end">
+            <button type="button" class="btn btn-success">Novo</button>
+          </div>
+        </caption>
         <thead class="table-dark">
           <tr>
             <th scope="col">#</th>
@@ -10,33 +15,21 @@
           </tr>
         </thead>
         <tbody>
-          <tr>
-            <th scope="row">1</th>
-            <td>Mark</td>
-            <td>Otto</td>
+          <tr *ngFor="let aluno of alunos">
+            <th scope="row">{{aluno.id}}</th>
+            <td>{{aluno.nome}}</td>
+            <td>{{aluno.telefone}}</td>
             <td>
-              <a routerLinkActive="active" [routerLink]="['../status']" style="margin-right: 10px;">
+              <a routerLinkActive="active" [routerLink]="['../status', aluno.id]" style="margin-right: 10px;">
                 <i-bs name="calculator" style="font-size: 1rem; color: black;" tooltip="Editar" placement="top"></i-bs>
               </a>
-              <a routerLinkActive="active" [routerLink]="['../edit']" style="margin-right: 10px;">
+              <a routerLinkActive="active" [routerLink]="['../edit', aluno.id]" style="margin-right: 10px;">
                 <i-bs name="pencil" style="font-size: 1rem; color: black;" tooltip="Editar" placement="top"></i-bs>
               </a>
               <a href="javascript:void(0)">
                 <i-bs name="trash" style="font-size: 1rem; color: black;" tooltip="Editar" placement="top"></i-bs>
               </a>
             </td>
-          </tr>
-          <tr>
-            <th scope="row">2</th>
-            <td>Jacob</td>
-            <td>Thornton</td>
-            <td>@fat</td>
-          </tr>
-          <tr>
-            <th scope="row">3</th>
-            <td>Larry the Bird</td>
-            <td></td>
-            <td>@twitter</td>
           </tr>
         </tbody>
     </table>

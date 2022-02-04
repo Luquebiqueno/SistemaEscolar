@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
+import { Router } from '@angular/router';
 import { UsuarioAutenticado } from 'src/app/models/usuario-autenticado';
 import { UsuarioLogin } from 'src/app/models/usuario-login';
 import { AutenticacaoService } from 'src/app/services/autenticacao.service';
@@ -15,7 +16,8 @@ export class LoginComponent implements OnInit {
   usuarioLogin: UsuarioLogin;
 
   constructor(private autenticacaoService: AutenticacaoService,
-              private formBuilder: FormBuilder) { }
+              private formBuilder: FormBuilder,
+              private router: Router,) { }
 
   ngOnInit(): void {
     this.validarFormulario();
@@ -29,7 +31,6 @@ export class LoginComponent implements OnInit {
   }
 
   public login() {
-    debugger;
     if(this.form.invalid) {
       alert('Dados inválidos.');
       return null;
@@ -41,6 +42,8 @@ export class LoginComponent implements OnInit {
       }
 
       alert(usuarioAutenticado.message);
+
+      this.router.navigate(['app/aluno/list']);
     });
   }
 

@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
+import { AlunoStatus } from 'src/app/models/aluno-status';
+import { AlunoService } from 'src/app/services/aluno.service';
 
 @Component({
   selector: 'app-aluno-status',
@@ -7,9 +10,20 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AlunoStatusComponent implements OnInit {
 
-  constructor() { }
+  public alunoStatus: AlunoStatus;
+
+  constructor(private route: ActivatedRoute, private alunoService: AlunoService) { }
 
   ngOnInit(): void {
+    this.getAlunoStatus()
+  }
+
+
+  getAlunoStatus() {
+    let id = this.route.snapshot.paramMap.get('id');
+    this.alunoService.getAlunoStatus(id).subscribe((response: AlunoStatus) =>{
+      this.alunoStatus = response
+    });
   }
 
 }
