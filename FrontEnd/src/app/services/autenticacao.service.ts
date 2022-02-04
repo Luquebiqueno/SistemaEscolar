@@ -24,8 +24,4 @@ export class AutenticacaoService {
     return false;
   }
 
-  logout(): void {
-    localStorage.removeItem('usuarioAutenticado');
-  }
-
 }

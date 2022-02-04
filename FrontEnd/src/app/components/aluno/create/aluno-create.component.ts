@@ -15,7 +15,7 @@ export class AlunoCreateComponent implements OnInit {
 
   public createAluno(formData: any) : void {
     this.alunoService.createAluno(formData.value).subscribe((response:any) => {
-      alert("Salvo com sucesso");
+      alert("Aluno Salvo com sucesso");
     },
     error => {
       alert("Aconteceu um erro");
