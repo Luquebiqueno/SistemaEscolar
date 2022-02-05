@@ -26,11 +26,12 @@
               <a routerLinkActive="active" [routerLink]="['../edit', aluno.id]" style="margin-right: 10px;">
                 <i-bs name="pencil" style="font-size: 1rem; color: black;" tooltip="Editar" placement="top"></i-bs>
               </a>
-              <a href="javascript:void(0)">
+              <a href="javascript:void(0)" (click)="deleteAluno($event, aluno.id)">
                 <i-bs name="trash" style="font-size: 1rem; color: black;" tooltip="Editar" placement="top"></i-bs>
               </a>
             </td>
           </tr>
         </tbody>
     </table>
+    <p *ngIf="alunos.length==0">Nenhum aluno cadastrado.</p>
 </div>

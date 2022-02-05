@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 import { AlunoService } from 'src/app/services/aluno.service';
 
 @Component({
@@ -8,7 +9,8 @@ import { AlunoService } from 'src/app/services/aluno.service';
 })
 export class AlunoCreateComponent implements OnInit {
 
-  constructor(private alunoService: AlunoService) { }
+  constructor(private alunoService: AlunoService,
+              private router: Router) { }
 
   ngOnInit(): void {
   }
@@ -16,6 +18,7 @@ export class AlunoCreateComponent implements OnInit {
   public createAluno(formData: any) : void {
     this.alunoService.createAluno(formData.value).subscribe((response:any) => {
       alert("Aluno Salvo com sucesso");
+      this.router.navigate(['app/aluno/list']);
     },
     error => {
       alert("Aconteceu um erro");

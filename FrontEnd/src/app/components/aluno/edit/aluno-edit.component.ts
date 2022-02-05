@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
 import { Aluno } from 'src/app/models/aluno';
 import { AlunoService } from 'src/app/services/aluno.service';
 
@@ -12,7 +12,9 @@ export class AlunoEditComponent implements OnInit {
 
   public aluno: Aluno;
 
-  constructor(private route: ActivatedRoute, private alunoService: AlunoService) { }
+  constructor(private route: ActivatedRoute, 
+              private alunoService: AlunoService,
+              private router: Router) { }
 
   ngOnInit(): void {
     this.getAlunoById();
@@ -28,6 +30,7 @@ export class AlunoEditComponent implements OnInit {
   updateAluno(id: number, model: Aluno) {
     this.alunoService.updateAluno(id.toString(), model).subscribe((response: Aluno) => {
       alert("Aluno Atualizado com sucesso");
+      this.router.navigate(['app/aluno/list']);
     },
     error => {
       alert("Aconteceu um erro");

@@ -24,12 +24,15 @@ export class AlunoListComponent implements OnInit {
     );  
   }
 
-  public deleteAluno(id: string) {
-    this.alunoService.deleteAluno(id).subscribe(
-      response => {
-        this.getAluno();
-      }
-    );
+  public deleteAluno($event: any, id: number) {
+    $event.preventDefault();
+    if (confirm('Deseja remover este aluno?')) {
+      this.alunoService.deleteAluno(id.toString()).subscribe(
+        response => {
+          this.getAluno();
+        }
+      );
+    }
   }
 
 }
